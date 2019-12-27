@@ -18,7 +18,7 @@ public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
-    @NotNull(message = "用户名不能为空")
+    @NotNull(message = "用户名不能为空啊啊啊啊")
     private String username;
     private String password;
 }
