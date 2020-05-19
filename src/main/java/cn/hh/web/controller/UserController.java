@@ -19,7 +19,7 @@ public class UserController {
     @DeleteMapping("/user/{id}")
     public String delete(@PathVariable String id){
         System.out.println("要删除的id："+id);
-        return "删除成功";
+        return "删除成功!!!";
     }
 
     //更新操作
